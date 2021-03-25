@@ -25,22 +25,22 @@ np.set_printoptions(threshold=np.nan)
 
 
 
-# Separe en conjunto entrenamiento y en conjunto de prueba con Scikit Learn. (Pista:
+# 3. Separe en conjunto entrenamiento y en conjunto de prueba con Scikit Learn. (Pista:
 # usa la vieja confiable de xtrain, xtest, ytrain, ytest = ... con la infalibre sublibrería
 # from from sklearn.model_selection import train_test_split )
 
 
-# Ajuste el modelo de regresión en los datos de entrenamiento con el siguiente template
+# 4. Ajuste el modelo de regresión en los datos de entrenamiento con el siguiente template
 # from sklearn.linear_model import LinearRegression 
 # regressor = LinearRegression()
 # regressor.fit('tu eje de las x de training', 'tu eje de las y de training')
 
 
-# Genera tu predicción con regressor.predict
+# 5. Genera tu predicción con regressor.predict
 
 
 
-# Visualiza tus resultados con matplotlib
+# 6. Visualiza tus resultados con matplotlib
 
 
 # Haz la prueba con el conjunto de prueba y visualiza
